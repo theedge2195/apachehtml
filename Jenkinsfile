@@ -9,7 +9,7 @@ pwd'''
     }
     stage('Stage') {
       steps {
-        sh '''#!./bin/bash
+        sh '''#!/bin/bash
 pwd'''
       }
     }
